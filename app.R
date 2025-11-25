@@ -4,9 +4,11 @@
 library(shiny)
 library(ggplot2)
 library(dplyr)
+library(plotly) 
+library(DT)
 
 # Cargar interfaz y servidor
-source("interfaz.R")
+source("ui.R")
 source("server.R")
 
 # Lanzar aplicación
